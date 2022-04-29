@@ -46,10 +46,31 @@ func SetRule(domain string, rule Rule) {
 var (
 	rulesMtx sync.RWMutex
 	rules    = map[string]Rule{
-		"":               DefaultRuleset,
-		"gmail.com":      GmailRuleset,
-		"googlemail.com": GooglemailRuleset,
-		"yahoo.com":      YahooRuleset,
+		"":                            DefaultRuleset,
+		"gmail.com":                   GmailRuleset,
+		"googlemail.com":              GooglemailRuleset,
+		"yahoo.com":                   YahooRuleset,
+		"cock.li":                     CockLiRuleset,
+		"airmail.cc":                  CockLiRuleset,
+		"420blaze.it":                 CockLiRuleset,
+		"aaathats3as.com":             CockLiRuleset,
+		"cumallover.me":               CockLiRuleset,
+		"goat.si":                     CockLiRuleset,
+		"horsefucker.org":             CockLiRuleset,
+		"national.shitposting.agency": CockLiRuleset,
+		"tfwno.gf":                    CockLiRuleset,
+		"cock.lu":                     CockLiRuleset,
+		"cock.email":                  CockLiRuleset,
+		"firemail.cc":                 CockLiRuleset,
+		"memeware.net":                CockLiRuleset,
+		"cocaine.ninja":               CockLiRuleset,
+		"waifu.club":                  CockLiRuleset,
+		"dicksinhisan.us":             CockLiRuleset,
+		"loves.dicksinhisan.us":       CockLiRuleset,
+		"wants.dicksinhisan.us":       CockLiRuleset,
+		"dicksinmyan.us":              CockLiRuleset,
+		"loves.dicksinmyan.us":        CockLiRuleset,
+		"wants.dicksinmyan.us":        CockLiRuleset,
 	}
 )
 
@@ -67,5 +88,8 @@ var (
 	YahooRuleset = Rule{
 		TrimChars:           []rune{'.'},
 		SubAddressDelimiter: "-",
+	}
+	CockLiRuleset = Rule{
+		SubAddressDelimiter: ".",
 	}
 )
