@@ -8,6 +8,7 @@ SPDX-License-Identifier: Unlicense
 [![Go Documentation](https://godocs.io/mpldr.codes/normalize-email?status.svg)](https://godocs.io/mpldr.codes/normalize-email)
 [![REUSE status](https://api.reuse.software/badge/git.sr.ht/~poldi1405/normalize-email)](https://api.reuse.software/info/git.sr.ht/~poldi1405/normalize-email)
 [![License: MPL-2](https://img.shields.io/static/v1?color=green&label=License&message=MPL-2&logo=open-source-initiative&color=3DA639)](https://git.sr.ht/~poldi1405/normalize-email/tree/master/item/LICENSES/MPL-2.0.txt)
+[![builds.sr.ht status](https://builds.sr.ht/~poldi1405/normalize-email.svg)](https://builds.sr.ht/~poldi1405/normalize-email)
 
 This package is intended to help reduce multiple sign-ups using the same
 mail-address by applying general and provider specific rules to email
